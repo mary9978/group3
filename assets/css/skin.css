@@ -11,10 +11,10 @@ width: 150vw;
 .login-image{
     display: grid;
     grid-area: login-image;
-    background-image: url("../images/dribbble3.jpg");
+    /*background-image: url("../images/dribbble3.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     align-items: stretch;
     align-content: stretch;
     /*width: 150%;*/
