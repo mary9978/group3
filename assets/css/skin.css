@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.container{
+width: 150vw;
+ height: 100vh;
+ display: grid;
+    grid-template: 100fr/repeat(2,50fr);
+    grid-template-areas: "login-image login-input";
+}
+.login-image{
+    display: grid;
+    grid-area: login-image;
+    background-image: url("../images/dribbble3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: stretch;
+    align-content: stretch;
+    /*width: 150%;*/
+    /*height: 100%;*/
+}
+.login-input{
+    grid-area: login-input;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5rem;
+}
+.login-input-responsive{
+    display: none;
+}
+
+
